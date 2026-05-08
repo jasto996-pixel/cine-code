@@ -2,20 +2,26 @@
 
 :root {
   --accent-color: #ff3e3e; /* Rojo Neón */
-  --velvet-gradient: linear-gradient(45_deg_, #ff3e3e, #7a0000);
+  --velvet-gradient: linear-gradient(45deg, #ff3e3e, #7a0000);
   --gold-color: #d4af37;
 }
 
-body{
-    font-family: "Montserrat", sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.brand-font{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 2.2rem;
-    letter-spacing: 3px;
+.brand-font {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 3px;
 }
 
-.navbar-dark-new{
-    background-color: rgba(0, 0, 0,.95);
+.navbar-dark-new {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.navbar-brand {
+  background: var(--velvet-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
