@@ -49,3 +49,9 @@ main{
   border: none;
   
 }
+
+.contenedorBoton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
