@@ -55,3 +55,10 @@ main{
   justify-content: center;
   align-items: center;
 }
+
+.precio{
+  color: #d4af37;
+  font-weight: 600;
+  font-size: 2rem;
+  text-shadow: 0 0 2px ;
+}
